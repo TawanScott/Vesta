@@ -66,16 +66,16 @@
 										<form method="post" action="#">
 											<div class="row gtr-uniform">
 												<div class="col-6 col-12-xsmall">
-													<label for="name">Full Name</label>
-													<input type="text" name="name" id="name" value="" />
+													<label for="name">Full Name*</label>
+													<input type="text" name="name" id="name" value="" required/>
 												</div>
 												<div class="col-6 col-12-xsmall">
-													<label for="demo-email">Email</label>
-													<input type="email" name="email" id="email" value="" />
+													<label for="demo-email">Email*</label>
+													<input type="email" name="email" id="email" value=""  required/>
 												</div>
 												<div class="col-6 col-12-xsmall">
-													<label for="category">Category</label>
-													<select name="category" id="category">
+													<label for="category">Category*</label>
+													<select name="category" id="category" required>
 														<option value="">-</option>
 														<option value="1">Administraion</option>
 														<option value="1">Business Development</option>
@@ -91,8 +91,8 @@
 													</select>
 												</div>
 												<div class="col-6 col-12-xsmall">
-													<label for="position-type">Position Type</label>
-													<select name="position-type" id="position-type">
+													<label for="position-type">Position Type*</label>
+													<select name="position-type" id="position-type" required>
 														<option value="">-</option>
 														<option value="1">Full-Time</option>
 														<option value="1">Part-Time</option>
@@ -112,12 +112,12 @@
 													<label for="washingon-dc">Washingon DC</label>
 												</div>
 												<div class="col-4 col-12-small">
-													<label for="resume">Resume:</label>
-													<input type="file" id="resume" name="resume">
+													<label for="resume">Resume*</label>
+													<input type="file" id="resume" name="resume" required>
 												</div>
 												<div class="col-12">
-													<label for="message">Why do you want to work for us?</label>
-													<textarea name="message" id="message" rows="6"></textarea>
+													<label for="message">Why do you want to work for us?*</label>
+													<textarea name="message" id="message" rows="6" required></textarea>
 												</div>
 												<div class="col-12">
 													<ul class="actions">
@@ -142,16 +142,16 @@
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<label for="name">Name*</label>
+										<input type="text" name="name" id="name" required/>
 									</div>
 									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<label for="email">Email*</label>
+										<input type="email" name="email" id="email" required/>
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<label for="message">Message*</label>
+										<textarea name="message" id="message" rows="4" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
