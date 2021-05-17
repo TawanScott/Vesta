@@ -4196,3 +4196,9 @@ input, select, textarea {
 		cursor: pointer;
 		margin: 12px 0;
 	}
+	.checkbox {
+		background: none;
+		border: none;
+		color: white;
+		font-size: 15px;
+	  }

@@ -38,20 +38,25 @@
 					</nav>
 
 				<!-- Wrapper -->
-					<div class = "login">
-                        <h1>Login</h1>
-                        <div class = "textbox">
-                            <i class = "fa fa-user" aria-hidden="true"></i>
-                            <input type = "text" placeholder = "Username" name = "" value ="" required/>
-                        </div>
+					<form method="post" action="#">
+						<div class = "login">
+							<h1>Login</h1>
+							<div class = "textbox">
+								<i class = "fa fa-user" aria-hidden="true"></i>
+								<input type = "text" placeholder = "Username" name = "" value ="" required/>
+							</div>
 
-                        <div class = "textbox">
-                            <i class = "fa fa-lock" aria-hidden="true"></i>
-                            <input type = "password" placeholder = "Password" name = "" value ="" required/>
-                        </div>
-
-                        <input class = "btn" type = "submit" name ="" value = "Sign in">
-                    </div>
+							<div class = "textbox">
+								<i class = "fa fa-lock" aria-hidden="true"></i>
+								<input type = "password" placeholder = "Password" name = "" value ="" required/>
+							</div>
+							<div class = "checkbox">
+								<input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+							</div>
+							
+							<input class = "btn" type = "submit" name ="" value = "Sign in" onclick="lsRememberMe()">
+						</div>
+					</form>
 
 			</div>
 
